@@ -44,7 +44,7 @@ public class LinkedList {
 
   // Method to print the value of the tail node
   public void getTail() {
-    if (head == null) { // Check if the list is empty
+    if (tail == null) { // Check if the list is empty
       System.out.println("Tail: null");
     } else {
       System.out.println("Tail: " + tail.value); // Print the value of the tail
@@ -59,7 +59,7 @@ public class LinkedList {
   // Main method to test the LinkedList class
   public static void main(String[] args) {
     // Create a new linked list with an initial value of 4
-    LinkedList myLinkedList = new LinkedList(4);
+    LinkedList myLinkedList = new LinkedList(8);
 
     // Print all elements in the linked list
     myLinkedList.printList();
